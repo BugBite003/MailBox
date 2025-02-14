@@ -208,3 +208,17 @@ body {
 .star:hover {
     color: gold;
 }
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        top: 16%; 
+    }
+
+    .navbar.shifted {
+        margin-left: 0px;
+    }
+
+    .content-container.shifted {
+        margin-left: 0px;
+    }
+}
